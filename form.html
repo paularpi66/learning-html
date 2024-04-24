@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <header>
+            <h1>Learning Form</h1>
+        </header>
+        <body>
+            <h2>Registration form</h2>
+
+            <form>
+                <div>
+                    <label for = "fullname">Fullname: </label>
+                    <input type ="text" name = "fullname" id = "fullname" required>
+                </div> <br>
+                <div>
+                    <label for = "email">Email: </label>
+                    <input type ="text" name = "email" id = "email" required>
+                </div> <br>
+                <div>
+                    <label for = "password">Password: </label>
+                    <input type ="password" name = "password" id = "password" required>
+                </div> <br>
+                <div>
+                    <label for = "phoneno">Phone no: </label>
+                    <input type ="text" name = "phoneno" id = "phoneno" required>
+                </div> <br>
+                <div>
+                    <label for = "dob">Date of birth: </label>
+                    <input type ="date" name = "dob" id = "dob">
+                </div> <br>
+                <div>
+                    <label for = "photo">Choose your photo: </label>
+                    <input type ="file" name = "photo" id = "photo">
+                </div> <br>
+                <div>
+                    <label for = "gender">Gender: </label>
+                    <input type ="radio" name = "gender" id = "gender" value="male">
+                    <input type ="radio" name = "gender" id = "gender" value="female">
+                    <input type ="radio" name = "gender" id = "gender" value="others">
+                </div> <br>
+                <div>
+                    <label for = "religion">Religion: </label>
+                    <input type ="checkbox" name = "Hindusim" id = "hindusim" value="hindu">
+                    <input type ="checkbox" name = "Muslim" id = "muslim" value="islam">
+                    <input type ="checkbox" name = "christan" id = "christan" value="christan">
+                </div> <br>
+
+                <div>
+                    <label for="department">Department: </label>
+                    <select name = "department">
+                        <option value = "select"> Select</option>
+                        <option value = "cse"> CSE</option>
+                        <option value = "IT"> IT </option>
+                        <option value = "EEE"> EEE </option>
+                        <option value = "LLB"> LLB </option>
+                    </select>
+                </div> <br>
+
+                <div>
+                    <label for = "message">Message</label> <br>
+                    <textarea cols = "100" rows="20"> </textarea>
+                </div> <br>
+
+                <div>
+                    <input type = "submit" value = "Register"><br> <br>
+                    <input type = "reset" value = "clear">
+                </div>
+
+            </form>
+        </body>
+    </head>
+</html>
