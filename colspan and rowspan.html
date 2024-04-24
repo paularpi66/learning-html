@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Learning colspan and rowspan</title>
+        <style>
+            table, td, th{
+                border: 1px solid black;
+            }
+            table{
+                border-collapse: collapse;
+                width: 300px;
+                height: 200px;
+                text-align:  center;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <th> ID </th>
+                    <th> Name</th>
+                    <th colspan="2">phone </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> 101 </td>
+                    <td> Arpita </td>
+                    <td> 017 </td>
+                    <td rowspan="3"> 108 </td>
+                </tr>
+                <tr>
+                    <td> 101 </td>
+                    <td> Arpita </td>
+                    <td> 017 </td>
+                </tr>
+                <tr>
+                    <td> 102 </td>
+                    <td> Mrpita </td>
+                    <td> 017 </td>
+                </tr>
+                <tr>
+                    <td> 103 </td>
+                    <td> Drpita </td>
+                    <td> 017 </td>
+                </tr>
+                <tr>
+                    <td> 104 </td>
+                    <td> Arpita </td>
+                    <td> 017 </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>
